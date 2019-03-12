@@ -1,0 +1,27 @@
+{
+  "name": "autocomplete-gams",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "Autocomplete provider for GAMS language",
+  "keywords": [
+    "autocomplete",
+    "provider",
+    "GAMS"
+  ],
+  "repository": "https://github.com/chrispahm/autocomplete-gams",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fuzzaldrin": "^2.1.0",
+    "lodash": "^4.17.11"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
