@@ -1,5 +1,5 @@
-# autocomplete-gams package
+# GAMS Autocomplete Package
 
-A short description of your package.
+Adds 'intelligent' and model aware autocompletion to your GAMS model. Requires [linter-gams]() to be installed and running.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![autocomplete-gams-demo](https://user-images.githubusercontent.com/20703207/54207124-e90c4c00-44d9-11e9-8be7-faeebd16bf53.gif)
