@@ -732,6 +732,16 @@ export default [
     'descriptionMoreURL': ''
   },
   {
+    'name': 'alias',
+    'displayText': 'alias(i,j[,...,n])',
+    'snippet': 'alias(${1:i},${2:j})',
+    'description': 'Creates an alias j (or multiple aliases) of the symbol i.',
+    'compileTime': 'yes',
+    'leftLabel': 'FUN',
+    'type': 'function',
+    'descriptionMoreURL': ''
+  },
+  {
     'name': 'display',
     'displayText': 'display',
     'snippet': 'display ${1:x};',
@@ -752,10 +762,40 @@ export default [
     'descriptionMoreURL': ''
   },
   {
+    'name': 'option',
+    'displayText': 'option',
+    'snippet': 'option ${1:x};',
+    'description': 'Set various global system parameters to control, e.g. output detail, the solution process and the layout of displays.',
+    'compileTime': 'yes',
+    'leftLabel': 'KEY',
+    'type': 'keyword',
+    'descriptionMoreURL': ''
+  },
+  {
+    'name': 'execute',
+    'displayText': 'execute',
+    'snippet': 'execute ${1:x};',
+    'description': 'Execute an external command.',
+    'compileTime': 'yes',
+    'leftLabel': 'KEY',
+    'type': 'keyword',
+    'descriptionMoreURL': ''
+  },
+  {
     'name': 'if',
     'displayText': 'if',
     'snippet': 'if (${1:logical_condition},\n ${2:statement}\n);',
     'description': 'If logical_condition is met, execute the statement.',
+    'compileTime': 'yes',
+    'leftLabel': 'KEY',
+    'type': 'keyword',
+    'descriptionMoreURL': ''
+  },
+  {
+    'name': 'ifi',
+    'displayText': 'ifi',
+    'snippet': '$ifi ${1:logical_condition} ${2:statement};',
+    'description': 'If case-insensitive logical_condition is met, execute the statement.',
     'compileTime': 'yes',
     'leftLabel': 'KEY',
     'type': 'keyword',
@@ -796,6 +836,26 @@ export default [
     'displayText': 'exit',
     'snippet': '$exit;',
     'description': 'Terminate execution.',
+    'compileTime': 'yes',
+    'leftLabel': 'KEY',
+    'type': 'keyword',
+    'descriptionMoreURL': ''
+  },
+  {
+    'name': 'ontext',
+    'displayText': 'ontext',
+    'snippet': '$ontext',
+    'description': 'Multiline comment start.',
+    'compileTime': 'yes',
+    'leftLabel': 'KEY',
+    'type': 'keyword',
+    'descriptionMoreURL': ''
+  },
+  {
+    'name': 'offtext',
+    'displayText': 'offtext',
+    'snippet': '$offtext',
+    'description': 'Multiline comment end.',
     'compileTime': 'yes',
     'leftLabel': 'KEY',
     'type': 'keyword',
